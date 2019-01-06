@@ -74,7 +74,7 @@ li {
 
 .grid .grid_item:nth-child(2){
     grid-area: span 2 / span 2;
-    background-image: url(https://i.pinimg.com/564x/75/ab/eb/75abeb7832cb3a3eecab5dcfd6d5b472.jpg);
+    background-image: url(https://i.pinimg.com/564x/50/4f/5d/504f5def6a78023b883d259c5cf1a47e.jpg);
 }
 
 .grid .grid_item:nth-child(3){
@@ -99,12 +99,12 @@ li {
 
 .grid .grid_item:nth-child(7){
     grid-area: span 1 / span 1;
-    background-image: url(https://i.pinimg.com/564x/1a/68/9d/1a689d6ed021bc87dcbc0248058982f6.jpg);
+    background-color: var(--colorOne);
 }
 
 .grid .grid_item:nth-child(8){
     grid-area: span 2 / span 2;
-        background-color: var(--colorOne);
+        background-color: #079992;
 
 }
 
