@@ -74,7 +74,7 @@ li {
 
 .grid .grid_item:nth-child(2){
     grid-area: span 2 / span 2;
-    background-image: url(https://i.pinimg.com/564x/50/4f/5d/504f5def6a78023b883d259c5cf1a47e.jpg);
+    background-image: url(https://i.pinimg.com/564x/4a/67/f0/4a67f039c2c9edc91287ddebb6916715.jpg);
 }
 
 .grid .grid_item:nth-child(3){
