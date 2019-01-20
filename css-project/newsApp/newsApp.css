@@ -68,7 +68,8 @@ body {
     font-size: 15px;
     width: 100%;
     font-weight: 500;
-
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .grid-item .grid-item_title {
