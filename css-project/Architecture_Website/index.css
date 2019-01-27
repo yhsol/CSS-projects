@@ -39,6 +39,7 @@ body {
     grid-gap: 20px;
     overflow: scroll;
     margin-bottom: 20px;
+    margin-left: 90px;
 }
 
 .portfolio_grid .portfolio_item {
@@ -75,6 +76,10 @@ body {
     background-color: white;
     color: rgba(0, 0, 0, 0.6);
     height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .nav_items {
@@ -87,11 +92,15 @@ body {
     padding-right: 80px;
 }
 
-.navigation_items {
+.navigation_icons {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 33px;
+}
+
+.navigation_icons:first-child {
+    padding-right: 0;
 }
 
 .selected_item {
