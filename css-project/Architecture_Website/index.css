@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#ecf0f1;
+    display: grid;
+    grid-template-rows: 1.5fr 3.5fr 1fr;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.header .header_nav{
+    transform: rotate(90deg);
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header .header_Title  {
+    font-weight: 400;
+}
+
+.portfolio_grid {
+    display: grid;
+    grid-auto-columns: minmax(300px, 1fr);
+    grid-auto-rows: 55vh;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.portfolio_grid .portfolio_item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("https://i.pinimg.com/564x/47/9a/f4/479af48b0d241dad3b047b1a49f85196.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.14);
+    margin: 30px 0;
+}
+
+.portfolio_item:hover {
+    box-shadow: 0 14px 32px rgba(0,0,0,0.25), 0 10px 14px rgba(0,0,0,0.22);
+    transition: box-shadow .3s;
+}
+
+.item_info {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.item_subtitle {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-auto-flow: column;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+}
+
+.nav_items {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.navigation_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 33px;
+}
+
+.selected_item {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}
