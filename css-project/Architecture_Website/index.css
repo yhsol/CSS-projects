@@ -17,7 +17,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 100px 60px 50px;;
 }
 
 .header .header_nav{
@@ -39,7 +39,7 @@ body {
     grid-gap: 20px;
     overflow: scroll;
     margin-bottom: 20px;
-    margin-left: 90px;
+    padding-left: 90px;
 }
 
 .portfolio_grid .portfolio_item {
@@ -71,31 +71,30 @@ body {
 
 .navigation {
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-auto-flow: column;
+    grid-template-columns: 5fr 1fr;
     background-color: white;
     color: rgba(0, 0, 0, 0.6);
     height: 100px;
+    width: 100%;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
 }
 
 .nav_items {
     list-style: none;
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 80px;
+}
+
+.nav_item {
+    margin-right: 33px;
 }
 
 .navigation_icons {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-around;
     padding: 0 33px;
 }
 
